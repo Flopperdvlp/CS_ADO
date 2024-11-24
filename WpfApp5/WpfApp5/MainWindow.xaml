@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Customer" Click="Customer" HorizontalAlignment="Left" Height="47" Margin="213,10,0,0" VerticalAlignment="Top" Width="102"/>
+        <Button Content="Delivery" Click="Delivery" HorizontalAlignment="Left" Height="47" Margin="334,10,0,0" VerticalAlignment="Top" Width="102"/>
+        <Button Content="Company" Click="Company" HorizontalAlignment="Left" Height="47" Margin="454,10,0,0" VerticalAlignment="Top" Width="102"/>
+        <TextBox Name="SqlContentTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="500" Height="200" Margin="135,129,0,0" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+        <Button Content="Load SQL File" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Click="LoadSqlFile" Margin="334,94,0,0"/>
+
+    </Grid>
+</Window>

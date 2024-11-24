@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desktop\\User.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\company.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\company.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\company.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\company.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\delivery.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\delivery.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|c:\\users\\masha\\source\\repos\\wpfapp5\\wpfapp5\\delivery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2637B93C-E4E3-4EE2-A40B-D1B5C6208824}|WpfApp5\\WpfApp5.csproj|solutionrelative:wpfapp5\\delivery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp5\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp5\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAIA/wDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:25:38.515Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delivery.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Delivery.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp5\\Delivery.xaml.cs",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Delivery.xaml.cs",
+              "RelativeToolTip": "WpfApp5\\Delivery.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:44:17.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Company.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Company.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp5\\Company.xaml.cs",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Company.xaml.cs",
+              "RelativeToolTip": "WpfApp5\\Company.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:44:21.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Customer.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp5\\Customer.xaml.cs",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Customer.xaml.cs",
+              "RelativeToolTip": "WpfApp5\\Customer.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:44:23.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp5\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp5\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T16:25:44.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delivery.xaml",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Delivery.xaml",
+              "RelativeDocumentMoniker": "WpfApp5\\Delivery.xaml",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Delivery.xaml",
+              "RelativeToolTip": "WpfApp5\\Delivery.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T16:42:06.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Company.xaml",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Company.xaml",
+              "RelativeDocumentMoniker": "WpfApp5\\Company.xaml",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Company.xaml",
+              "RelativeToolTip": "WpfApp5\\Company.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T16:41:52.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.xaml",
+              "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Customer.xaml",
+              "RelativeDocumentMoniker": "WpfApp5\\Customer.xaml",
+              "ToolTip": "C:\\Users\\Masha\\source\\repos\\WpfApp5\\WpfApp5\\Customer.xaml",
+              "RelativeToolTip": "WpfApp5\\Customer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T16:41:35.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.sql",
+              "DocumentMoniker": "D:\\Desktop\\User.sql",
+              "ToolTip": "D:\\Desktop\\User.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
+              "WhenOpened": "2024-11-21T16:59:44.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
