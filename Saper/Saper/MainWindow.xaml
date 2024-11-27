@@ -1,0 +1,12 @@
+﻿<Window x:Class="Saper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Сапёр" Height="450" Width="450">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Horizontal" Margin="10">
+            <Button x:Name="EasyButton" Content="Лёгкий" Width="120" Height="30" Click="EasyButton_Click"/>
+            <Button x:Name="MediumButton" Content="Средний" Width="120" Height="30" Click="MediumButton_Click"/>
+            <Button x:Name="HardButton" Content="Сложный" Width="120" Height="30" Click="HardButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
