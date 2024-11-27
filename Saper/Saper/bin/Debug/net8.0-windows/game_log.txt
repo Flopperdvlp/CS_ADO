@@ -1,0 +1,16 @@
+11/18/2024 8:30:19 PM: New game started.
+11/18/2024 8:30:32 PM: New game started.
+11/18/2024 8:30:33 PM: Safe cell clicked at (4, 3).
+11/18/2024 8:30:36 PM: Safe cell clicked at (4, 4).
+11/18/2024 8:30:37 PM: Safe cell clicked at (4, 5).
+11/18/2024 8:30:38 PM: Safe cell clicked at (4, 6).
+11/18/2024 8:30:39 PM: Safe cell clicked at (4, 8).
+11/18/2024 8:30:40 PM: Safe cell clicked at (4, 9).
+11/18/2024 8:30:40 PM: Safe cell clicked at (6, 8).
+11/18/2024 8:30:41 PM: Safe cell clicked at (8, 5).
+11/18/2024 8:30:42 PM: Safe cell clicked at (8, 0).
+11/18/2024 8:30:42 PM: Safe cell clicked at (6, 1).
+11/18/2024 8:30:43 PM: Safe cell clicked at (0, 0).
+11/18/2024 8:30:44 PM: Safe cell clicked at (2, 4).
+11/18/2024 8:30:45 PM: Mine clicked at (2, 1). Game over.
+11/18/2024 8:30:46 PM: User data saved to database: INSERT INTO Users (UserName, GamesPlayed, Wins, Losses) VALUES ('User', 1, 0, 1)
