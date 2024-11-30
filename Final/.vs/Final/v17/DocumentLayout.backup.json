@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{67DB0ED5-0484-4D6A-A186-FB91EA92427A}|Final\\Final.csproj|solutionrelative:final\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desktop\\File.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67DB0ED5-0484-4D6A-A186-FB91EA92427A}|Final\\Final.csproj|c:\\users\\masha\\source\\repos\\final\\final\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{67DB0ED5-0484-4D6A-A186-FB91EA92427A}|Final\\Final.csproj|solutionrelative:final\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desktop\\File.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,7 +31,7 @@
               "RelativeDocumentMoniker": "Final\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Masha\\source\\repos\\Final\\Final\\MainWindow.xaml.cs",
               "RelativeToolTip": "Final\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAqwDYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowF8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T16:31:18.049Z",
               "IsPinned": true,
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Masha\\source\\repos\\Final\\Final\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Final\\MainWindow.xaml",
@@ -55,11 +55,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "File.sql",
               "DocumentMoniker": "D:\\Desktop\\File.sql",
               "ToolTip": "D:\\Desktop\\File.sql",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowAUAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
               "WhenOpened": "2024-11-26T17:07:39.684Z",
               "EditorCaption": ""

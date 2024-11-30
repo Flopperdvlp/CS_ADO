@@ -28,7 +28,11 @@ namespace Final
             StackPanel searchPanel = new StackPanel();
             searchPanel.Children.Add(new TextBox { Text = "Введите заголовок записи для поиска", Margin = new Thickness(5), Foreground = Brushes.Gray });
             searchPanel.Children.Add(new Button { Content = "Найти", Margin = new Thickness(5) });
-
+            searchPanel.Children.OfType<Button>().First().Click += (s, args) =>
+            {
+                var inputTitle = searchPanel.Children.OfType<TextBox>().First().Text;
+                Search(inputTitle);
+            };
             ContentGrid.Children.Add(searchPanel);
         }
         private void AddButton_Click(object sender, RoutedEventArgs e)
@@ -55,17 +59,22 @@ namespace Final
         }
         private void ListButton_Click(object sender, RoutedEventArgs e)
         {
-
+            List();
         }
-
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             ContentGrid.Children.Clear();
-
+             
             StackPanel deletePanel = new StackPanel();
+             
             deletePanel.Children.Add(new TextBox { Text = "Введите заголовок записи для удаления", Margin = new Thickness(5), Foreground = Brushes.Gray });
             deletePanel.Children.Add(new Button { Content = "Удалить", Margin = new Thickness(5) });
-
+            deletePanel.Children.OfType<Button>().First().Click += (s, args) =>
+            {
+                var inputTitle = deletePanel.Children.OfType<TextBox>().First().Text;
+                DeleteRecord(inputTitle);
+            };
+            
             ContentGrid.Children.Add(deletePanel);
         }
         private void AddRecord(string title, string text, string date)
@@ -73,6 +82,38 @@ namespace Final
             string sqlInsert = $"INSERT INTO Records (Title, Text, Date) VALUES ('{title}', '{text}', '{date}');";
             File.AppendAllText(Path, sqlInsert + Environment.NewLine);
             MessageBox.Show("Запись добавлена!");
+        }
+        private void DeleteRecord(string title)
+        {
+            var lines = File.ReadAllLines(Path).ToList();
+            var updatedLines = lines.Where(line => !line.Contains($"'{title}'")).ToList();
+            File.WriteAllLines(Path, updatedLines);
+            MessageBox.Show("Запись удалена!");
+        }
+        private void Search(string title)
+        {
+            ContentGrid.Children.Clear();
+            var records = File.ReadAllLines(Path);
+            var foundRecords = records.Where(line => line.Contains($"'{title}'")).ToList();
+            StackPanel searchResultsPanel = new StackPanel();
+            foreach (var record in foundRecords)
+            {
+                searchResultsPanel.Children.Add(new TextBlock { Text = record, Margin = new Thickness(5) });
+            }
+
+            ContentGrid.Children.Add(searchResultsPanel);
+        }
+        private void List()
+        {
+            ContentGrid.Children.Clear();
+            string[] sqlCommands = File.ReadAllLines(Path);
+            var insertCommands = sqlCommands.Where(line => line.StartsWith("INSERT INTO Records")).ToList();
+            StackPanel listPanel = new StackPanel();
+            foreach (var command in insertCommands)
+            {
+                listPanel.Children.Add(new TextBlock { Text = command, Margin = new Thickness(5) });
+            }
+            ContentGrid.Children.Add(listPanel);
         }
     }
 }
