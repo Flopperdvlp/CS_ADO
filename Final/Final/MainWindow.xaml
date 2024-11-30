@@ -1,0 +1,25 @@
+﻿<Window x:Class="Final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Background="LightGray" Orientation="Vertical">
+            <Button Content="Поиск" Margin="5" Click="SearchButton_Click"/>
+            <Button Content="Добавление" Margin="5" Click="AddButton_Click"/>
+            <Button Content="Удаление" Margin="5" Click="DeleteButton_Click"/>
+            <Button Content="Список" Margin="5" Click="ListButton_Click"/>
+        </StackPanel>
+
+        <Grid Name="ContentGrid" Grid.Column="1" Margin="10">
+        </Grid>
+    </Grid> 
+</Window>
