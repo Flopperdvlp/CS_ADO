@@ -1,0 +1,8 @@
+﻿<Window x:Class="Saper.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Сапёр" Height="450" Width="450">
+    <Grid>
+        <UniformGrid x:Name="GameGrid" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10" />
+    </Grid>
+</Window>
